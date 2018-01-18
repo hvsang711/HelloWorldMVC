@@ -23,7 +23,7 @@ namespace HelloWorld
             routes.MapRoute(
                name: "Students",
                url: "student/{action}/{id}",
-               defaults: new { controller = "Student", action = "Index", id = UrlParameter.Optional }
+               defaults: new { controller = "Student", action = "Index", id = 1 }
            );
 
             routes.MapRoute(
