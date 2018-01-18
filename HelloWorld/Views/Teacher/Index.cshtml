@@ -1,0 +1,10 @@
+﻿@model HelloWorld.Models.Teacher
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+<text>Teacher</text>
+ @Html.RadioButton("Gender", "male", false)
+@Html.RadioButtonFor(m => m.TeacherName, "hello")
